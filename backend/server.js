@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const app = express();
-const authRoutes = require("./routes/Auth"); // Authentication routes
+const authRoutes = require("./routes/auth"); // Authentication routes
 const notesRoutes = require("./routes/notes"); // Notes routes
 
 // ✅ Middleware
