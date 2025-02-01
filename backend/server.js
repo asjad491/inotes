@@ -8,7 +8,7 @@ const app = express();
 const authRoutes = require("./routes/Auth"); // Authentication routes
 const notesRoutes = require("./routes/notes"); // Notes routes
 
-// ✅ Middleware
+// ✅ Middleware there
 app.use(express.json());
 app.use(cors()); // Enable CORS for frontend communication
 
